@@ -1,0 +1,378 @@
+body {
+  margin-top: 55px;
+  margin-bottom: 35px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.event-title {
+  font-weight: 700;
+  margin: 0;
+}
+
+.event-date {
+  background: #766ec8;
+  padding: 20px 5px; }
+  .event-date h4 {
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin: 0; }
+  .event-date span {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    display: block; }
+
+.event-time {
+  background: #6b64b4;
+  padding: 8px 0;
+  display: block;
+  color: #d5d3ee;
+  text-align: center; }
+
+.event-heading {
+  margin: 0 0 0px; }
+  .event-heading h3 {
+    margin: 0 0 0px; }
+  .event-heading p {
+    line-height: 1.8; }
+
+
+.blog-date {
+  background: #2d2d2d;
+  padding: 12px 16px;
+  border-radius: 2px;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .blog-date span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700; }
+    
+/*
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transition: 1s !important;
+}
+
+.preloader:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #000;
+  transition: 1s !important;
+}
+
+.preloader.complete:before {
+  left: -50%;
+}
+
+.preloader:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #000;
+  transition: 1s !important;
+}
+
+.preloader.complete:after {
+  right: -50%;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 3px solid #fff;
+  animation: animate 2s linear infinite;
+  z-index: 10000;
+}
+
+.loader:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  animation: animateBg 2s linear infinite;
+}
+.preloader.complete {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+@keyframes animate {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  75% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes animateBg {
+  0%{
+    height: 0;
+  }
+  25% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+*/
+
+
+.card-body p.zc{
+  text-align: center;
+}
+.bg-pm {
+  background-color: #766ec8;
+}
+
+nav ul li.active a {
+  color: #766ec8 !important;
+  font-weight: bold;
+}
+
+nav.fixed-bottom {
+  padding-bottom: 2px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.navku {
+  text-align: center !important;
+}
+
+.zzz {
+  padding-top: 100px !important;
+}
+
+img.imgg {
+  width: 50%;
+  height: 50%;
+  margin-top: 50px;
+}
+
+div#wlc {
+  width: 100%;
+  height: 768px !important;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div#wlc .row {
+  height: 768px !important;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+div#wlc h1 {
+  font-size: 50px;
+}
+
+div#wlc h3 {
+  font-size: 30px;
+}
+
+div#wlc hr {
+  border-top: thin solid white;
+  width: 35%;
+}
+
+.bnc {
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.anm {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+hr.a {
+  background-color: grey;
+  border: 1px solid grey;
+  width: 30%;
+}
+
+div#sambutan hr.b {
+  background-color: grey;
+  border: 1px solid grey;
+  width: 10%;
+}
+
+p.text-justify {
+  text-align: justify;
+}
+
+div#informasi a.btn-exp {
+  background-color: #766ec8;
+}
+
+#top-menu a {
+  -webkit-transition: .5s all ease-out;
+  -moz-transition: .5s all ease-out;
+  transition: .5s all ease-out;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  body {
+    margin-bottom: 0;
+  }
+
+  .navku {
+    -ms-flex-pack:end!important;
+    justify-content:flex-end!important;
+  }
+  
+  .card-body p.zc {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .ab {
+    padding-top: 10px !important;
+  }
+  
+  .ac {
+    padding-right: 60px !important;
+  }
+  
+  .xy {
+    padding-top: 30px !important;
+  }
+  
+  .zzz {
+    padding-top: 70px !important;
+  }
+  
+  img.imgg {
+    margin-top: 50px;
+  }
+  
+  div#wlc .txt {
+    padding-top: 20px;
+  }
+  
+  div#wlc h1 {
+    font-size: 70px;
+  }
+  
+  div#wlc h3 {
+    font-size: 50px;
+  }
+  
+  div#wlc h4 {
+    font-size: 30px;
+  }
+  div#sambutan {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  div#wlc hr {
+    border-top: thin solid white;
+    width: 15%;
+  }
+  
+  hr.a {
+    width: 20%;
+  }
+  
+  div#sambutan .zxc {
+    margin-bottom: 20px;
+  }
+  
+  div#profil .rps {
+    margin-top: 25px;
+  }
+  
+  nav div.navbar {
+    display: inline-block;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(99.999%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-99.999%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
